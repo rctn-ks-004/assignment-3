@@ -1,13 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx, css}"],
   theme: {
-    colors:{
-      'navbar' : '#979797',
-      'profil' : '#d0d0d0',
-      'card-mage': '#cbcbcb',
-      'button' : "#656565"
-    } ,
     screens:{
       'sm': '640px',
       'md': '768px',
@@ -15,7 +9,15 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1440px'
     },
-    extend: {},
+    extend: {
+      colors:{
+        "primaryButton" : "#F15C60",
+        "inputColorPrimary": "#EDEDED",
+        "wrapper-Input": "#DCDCDC",
+        'body' : "#E5E5E5",
+        'text-abu-abu' : "#7D7D7D"
+      }
+    },
   },
   plugins: [],
 }
