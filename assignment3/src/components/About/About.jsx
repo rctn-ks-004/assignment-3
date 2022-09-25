@@ -3,6 +3,8 @@ import { css } from "../../styles/styles";
 import Title from "../widgets/Title";
 export default function About() {
   const name = "James Kirawan";
+  const desc =
+    "An ongoing bachelor who like to code, with high enthusiast in seeking new challenges and technologies ";
   return (
     <section id="about">
       <div className={styles.container()}>
@@ -10,10 +12,8 @@ export default function About() {
           <div className={styles.flexStart()}>
             <div className={styles.column()}>
               <Title name={name} />
+              {desc}
             </div>
-          </div>
-          <div style={{ flex: 1, backgroundColor: "blue" }}>
-            <Title name={name} />
           </div>
         </div>
       </div>
@@ -42,6 +42,10 @@ const styles = {
   }),
   column: css({
     display: "flex",
+    marginLeft: 60,
     flexDirection: "column",
+    marginBottom: 100,
+    justifyContent: "center",
+    alignItems: "flex-start",
   }),
 };

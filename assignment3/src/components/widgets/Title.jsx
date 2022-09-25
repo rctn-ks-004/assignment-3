@@ -7,8 +7,6 @@ export default function Title(props) {
 
 const styles = {
   title: css({
-    marginLeft: 60,
-    marginTop: "20vh",
     fontSize: 40,
     color: "Black",
     fontWeight: "bold",
