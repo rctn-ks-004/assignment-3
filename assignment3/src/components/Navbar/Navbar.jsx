@@ -1,6 +1,6 @@
 import * as React from "react";
 import { css } from "../../styles/styles";
-import icon from "../../assets/icon.png";
+import icon from "../../assets/kirawan.jpg";
 import NavbarItem from "./NavbarItem";
 const navLinks = [
   {
@@ -73,8 +73,9 @@ const styles = {
     marginBottom: 30,
   }),
   imageStyle: css({
-    width: "92%",
+    width: "94%",
     aspectRatio: 1,
     borderRadius: 999,
+    objectFit: "cover",
   }),
 };
