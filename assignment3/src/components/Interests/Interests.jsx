@@ -76,6 +76,6 @@ const styles = {
   }),
   desc: css({
     fontSize: 18,
-    fontWeight: "600",
+    fontWeight: "400",
   }),
 };
