@@ -1,5 +1,9 @@
 :root {
 	--primary: #bc5b3c;
+	--secondary: #d3866b;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 .App {
 	text-align: center;
