@@ -1,4 +1,7 @@
 .container {
 	min-width: 85%;
-	background-color: black;
+}
+
+.container > h1 {
+	font-family: 'News Cycle', sans-serif;
 }
