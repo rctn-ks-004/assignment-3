@@ -5,11 +5,9 @@ import Homepage from './pages/HomePage';
 
 function App() {
 	return (
-		<div>
-			<Routes>
-				<Route path="/" exact element={<Homepage />} />
-			</Routes>
-		</div>
+		<Routes>
+			<Route path="/" exact element={<Homepage />} />
+		</Routes>
 	);
 }
 

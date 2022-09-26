@@ -24,7 +24,7 @@ h3 {
 	flex-basis: 100%;
 }
 .active {
-	color: white;
+	color: white !important;
 }
 .link {
 	cursor: pointer;

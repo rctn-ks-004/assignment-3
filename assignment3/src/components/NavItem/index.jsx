@@ -12,7 +12,12 @@ export default function NavItem() {
 		<ul className={styles[`nav--item_container`]}>
 			{navData.map(({ id, link, name }) => (
 				<li className={styles['nav--item']} key={id}>
-					<Link spy={true} to={link} onClick={() => navigate(`#${link}`)}>
+					<Link
+						spy={true}
+						to={link}
+						onClick={() => navigate(`#${link}`)}
+						activeClass="active"
+					>
 						{name}
 					</Link>
 				</li>
