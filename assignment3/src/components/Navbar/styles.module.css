@@ -7,6 +7,7 @@
 	justify-content: center;
 	flex-direction: column;
 	gap: 22px;
+	text-align: center;
 }
 .nav--item_container {
 	list-style: none;
