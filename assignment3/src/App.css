@@ -23,6 +23,12 @@ h3 {
 .break {
 	flex-basis: 100%;
 }
+.active {
+	color: white;
+}
+.link {
+	cursor: pointer;
+}
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);

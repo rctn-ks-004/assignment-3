@@ -8,6 +8,7 @@
 	flex-direction: column;
 	gap: 22px;
 	text-align: center;
+	position: fixed;
 }
 .nav--item_container {
 	list-style: none;

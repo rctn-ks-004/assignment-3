@@ -10,10 +10,6 @@ export default class About extends Component {
 					undergraduated student of Informatics Engineering from Universitas
 					Mikroskil in Medan, North Sumatera, Indonesia.{' '}
 				</p>
-				<p style={{ fontSize: 'xx-small' }}>
-					ps : don't have any other nickname because my name is short enough to
-					be a nickname
-				</p>
 			</Container>
 		);
 	}
