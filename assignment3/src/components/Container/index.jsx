@@ -6,6 +6,7 @@ export default class Container extends Component {
 		return (
 			<div className={styles.container}>
 				<h1>{this.props.title}</h1>
+
 				<div>{this.props.children}</div>
 			</div>
 		);

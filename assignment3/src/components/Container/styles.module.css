@@ -1,7 +1,6 @@
 .container {
 	min-width: 85%;
 	min-height: 100vh;
-	background-color: antiquewhite;
 	padding-left: 40px;
 	justify-content: center;
 	display: flex;
@@ -12,4 +11,5 @@
 	font-family: 'News Cycle', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
+	color: var(--black);
 }
