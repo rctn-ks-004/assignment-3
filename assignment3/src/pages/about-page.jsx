@@ -6,7 +6,7 @@ import about from "../utils/about";
 export default class AboutPage extends React.Component {
   render() {
     return (
-      <PageContainer id="#about">
+      <PageContainer id="#about" name="about">
         <AboutCard {...about} />
       </PageContainer>
     );

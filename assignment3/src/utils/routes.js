@@ -1,26 +1,26 @@
 const routes = [
   {
-    link: "#about",
+    link: "/about",
     label: "about",
   },
   {
-    link: "#experience",
+    link: "/experience",
     label: "experience",
   },
   {
-    link: "#education",
+    link: "/education",
     label: "education",
   },
   {
-    link: "#skills",
+    link: "/skills",
     label: "skills",
   },
   {
-    link: "#interests",
+    link: "/interests",
     label: "interests",
   },
   {
-    link: "#awards",
+    link: "/awards",
     label: "awards",
   },
 ];
