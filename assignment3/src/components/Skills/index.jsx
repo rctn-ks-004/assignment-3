@@ -22,7 +22,7 @@ export default class Skills extends Component {
 	}
 	render() {
 		return (
-			<Container title="Skills">
+			<Container title="Skills" id="skills">
 				<p className={styles['subtitle']}>Programming languanges &amp; tools</p>
 				<SkillLists data={this.state} />
 			</Container>
