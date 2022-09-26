@@ -5,7 +5,6 @@ import styles from './styles.module.css';
 export default class SkillLists extends Component {
 	render() {
 		const { data } = this.props;
-		const length = data.length;
 		return (
 			<ul className={styles['container']}>
 				{data.map((data, index) => {
