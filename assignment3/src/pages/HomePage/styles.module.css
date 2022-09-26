@@ -2,3 +2,6 @@
 	display: flex;
 	width: 100%;
 }
+.container--right {
+	width: 85%;
+}
