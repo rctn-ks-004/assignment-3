@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 import Container from '../Container';
-import ExperienceList from '../ExperienceList';
+import Lists from '../Lists';
 
 export default class Experience extends Component {
 	render() {
 		return (
 			<Container title="Experience" id="experience">
-				<ExperienceList
+				<Lists
 					data={[
 						{
 							title: 'React JS Developer',

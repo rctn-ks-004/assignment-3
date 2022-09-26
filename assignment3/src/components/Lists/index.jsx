@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import styles from './styles.module.css';
 
-export default class ExperienceList extends Component {
+export default class Lists extends Component {
 	render() {
 		const { title, subtitle, description, date } = this.props.data[0];
 		return (
