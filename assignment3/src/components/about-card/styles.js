@@ -22,7 +22,8 @@ export const InformationText = styled("p", {
 
 export const SummaryText = styled("p", {
   textAlign: "justify",
-  lineHeight: "140%",
+  lineHeight: "160%",
+  letterSpacing:0.4
 });
 
 export const ALinkContainer = styled("a", {

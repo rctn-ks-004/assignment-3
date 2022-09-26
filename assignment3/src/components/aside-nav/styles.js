@@ -17,6 +17,7 @@ export const AsideContainer = styled("aside", {
 
 export const LinkCustom = styled(Link, {
   textTransform: "uppercase",
+  cursor: "pointer",
   fontWeight: 900,
   opacity: 0.7,
   color: "$white",

@@ -8,9 +8,11 @@ export default class InterestCard extends React.Component {
       <CardContainer>
         <SummaryText>
           Hello Yorobun! Nah now i'm interesting about how to build progressive
-          web application with React JS and backend with Express JS, then i love
-          to play any sports game, i'm absolutely interesting with a girl not
-          a boy, and Twice is my favorite girl band.
+          web application with React JS and backend with Express JS, i'm who
+          person always hungry about skill and knowledge and who person always
+          asking and curious, then i love to play any sports game, i'm
+          absolutely interesting with a girl not a boy, and Twice is my favorite
+          girl band.
         </SummaryText>
       </CardContainer>
     );

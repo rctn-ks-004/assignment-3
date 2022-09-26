@@ -13,7 +13,8 @@ export default function AsideNav() {
           to={link.link}
           spy
           smooth
-
+          delay={50}
+          duration={100}
           activeClass="active"
         >
           {link.label}

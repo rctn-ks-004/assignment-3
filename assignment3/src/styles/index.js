@@ -13,6 +13,7 @@ export const PageTitleText = styled("h2", {
   fontWeight: 900,
   marginBottom: 24,
   fontSize: 34,
+  letterSpacing: 5
 });
 
 export const CardContainer = styled("div", {
