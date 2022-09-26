@@ -1,7 +1,24 @@
 import React, { Component } from 'react';
 
+import Container from '../Container';
+import ExperienceList from '../ExperienceList';
+
 export default class Experience extends Component {
 	render() {
-		return <div>Experience</div>;
+		return (
+			<Container title="Experience">
+				<ExperienceList
+					data={[
+						{
+							title: 'React JS Developer',
+							subtitle: 'SoftwareSeni',
+							description:
+								"Working as a React Js Developer Intern, developed company's internal project",
+							date: 'August 2022 - Present',
+						},
+					]}
+				/>
+			</Container>
+		);
 	}
 }

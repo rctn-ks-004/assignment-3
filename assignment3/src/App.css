@@ -12,6 +12,15 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+	font-family: 'News Cycle', sans-serif;
+	text-transform: uppercase;
+}
+h3 {
+	font-weight: normal;
+	color: var(--gray);
+}
+
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
