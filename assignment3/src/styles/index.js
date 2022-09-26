@@ -1,8 +1,6 @@
-import { Element } from "react-scroll";
 import styled from "../style";
 
-export const PageContainer = styled(Element, {
-  width: "100vw",
+export const SectionContainer = styled("section", {
   height: "100vh",
   display: "flex",
   flexDirection: "column",
@@ -29,7 +27,7 @@ export const RowContainer = styled("div", {
   gap: 8,
 });
 
-export const AppContainer = styled(Element, {
+export const PageContainer = styled("div", {
   display: "flex",
-  flexDirection: "row",
+  flexDirection: "column",
 });

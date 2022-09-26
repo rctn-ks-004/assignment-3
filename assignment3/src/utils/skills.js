@@ -5,6 +5,7 @@ const skills = [
   "Javascript",
   "Microsoft Office",
   "ReactJS",
+  "Googling",
 ];
 
 export default skills;

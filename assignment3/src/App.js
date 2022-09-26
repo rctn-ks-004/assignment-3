@@ -1,23 +1,15 @@
-import { Route, Routes } from "react-router-dom";
-import AsideNav from "./components/aside-nav";
-import AboutPage from "./pages/about-page";
-import EducationPage from "./pages/education-page";
-import ExperiencePage from "./pages/experience-page";
-import InterestPage from "./pages/interest-page";
-import { AppContainer } from "./styles";
+import { Navigate, Route, Routes } from "react-router-dom";
+import Homepage from "./pages/homepage";
 import "./styles.css";
 
 function App() {
   return (
-    <AppContainer className="App" id="containerElement">
-      <AsideNav />
+    <div className="App" id="containerElement">
       <Routes>
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/education" element={<EducationPage />} />
-        <Route path="/experience" element={<ExperiencePage />} />
-        <Route path="/interests" element={<InterestPage />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </AppContainer>
+    </div>
   );
 }
 
