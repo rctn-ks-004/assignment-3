@@ -20,7 +20,9 @@ h3 {
 	font-weight: normal;
 	color: var(--gray);
 }
-
+.break {
+	flex-basis: 100%;
+}
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
