@@ -1,4 +1,4 @@
-import logo from "../profile.jpg";
+import logo from "../utils/assets/profile.jpg";
 // import { Link } from 'react-router-dom';
 import { Link } from "react-scroll";
 

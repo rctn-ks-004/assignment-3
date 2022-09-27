@@ -8,10 +8,21 @@ const Award = ({ award }) => {
       <FontAwesomeIcon
         icon={faTrophy}
         style={{ padding: "20px" }}
-        size="2x"
+        size="3x"
         color="gold"
       />
-      <h3>{award}</h3>
+      <div>
+        <h3 style={{ margin: "0px" }}>{award.name}</h3>
+        <div style={{ display: "flex" }}>
+          <p style={{ margin: "0px" }}>{award.from} &emsp;</p>
+          <a
+            href={award.link}
+            style={{ color: color.main[1], textDecoration: "none" }}
+          >
+            Link
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
