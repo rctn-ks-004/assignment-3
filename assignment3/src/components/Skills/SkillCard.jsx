@@ -18,8 +18,10 @@ export default function SkillCard(props) {
       </div>
       <div>
         <ul>
-          {skill.desc.map((item) => (
-            <li className={styles.desc()}>{item}</li>
+          {skill.desc.map((item, idx) => (
+            <li className={styles.desc()} key={idx}>
+              {item}
+            </li>
           ))}
         </ul>
       </div>

@@ -1,6 +1,7 @@
 import * as React from "react";
 import { css } from "../../styles/styles";
-import icon from "../../assets/kirawan.jpg";
+// @ts-ignore
+import icon from "../../assets/picture.jfif";
 import NavbarItem from "./NavbarItem";
 const navLinks = [
   {
@@ -37,7 +38,7 @@ export default function Navbar() {
           <img src={icon} className={styles.imageStyle()} alt="icon" />
         </div>
         {navLinks.map((item) => (
-          <NavbarItem text={item.text} url={item.url} />
+          <NavbarItem text={item.text} url={item.url} key={item.url} />
         ))}
       </div>
     </div>

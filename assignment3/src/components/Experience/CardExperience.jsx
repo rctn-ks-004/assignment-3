@@ -20,8 +20,10 @@ export default function CardExperience(props) {
       </div>
       <div>
         <ul>
-          {job.desc.map((item) => (
-            <li className={styles.desc()}>{item}</li>
+          {job.desc.map((item, idx) => (
+            <li className={styles.desc()} key={idx}>
+              {item}
+            </li>
           ))}
         </ul>
       </div>

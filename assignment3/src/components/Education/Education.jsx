@@ -28,10 +28,10 @@ export default function Education() {
                 }}
               >
                 {educations.map((education, idx) => (
-                  <>
+                  <React.Fragment key={idx}>
                     {idx !== 0 && <div className={styles.mt80()} />}
                     <CardEducation education={education} />
-                  </>
+                  </React.Fragment>
                 ))}
               </div>
             </div>

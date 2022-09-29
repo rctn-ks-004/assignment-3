@@ -29,10 +29,10 @@ export default function Interests() {
                 }}
               >
                 {interests.map((item, idx) => (
-                  <>
+                  <React.Fragment key={idx}>
                     {idx !== 0 && <div className={styles.mt20()} />}
                     <div className={styles.desc()}>{item}</div>
-                  </>
+                  </React.Fragment>
                 ))}
               </div>
             </div>

@@ -54,7 +54,7 @@ export default function Awards() {
               >
                 <ul>
                   {awards.map((award, idx) => (
-                    <li style={{ marginTop: idx !== 0 ? 25 : 0 }}>
+                    <li style={{ marginTop: idx !== 0 ? 25 : 0 }} key={idx}>
                       <CardAward award={award} />
                     </li>
                   ))}

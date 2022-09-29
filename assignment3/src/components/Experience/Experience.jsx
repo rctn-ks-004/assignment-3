@@ -43,10 +43,10 @@ export default function Experience() {
                 }}
               >
                 {jobs.map((job, idx) => (
-                  <>
+                  <React.Fragment key={idx}>
                     {idx !== 0 && <div className={styles.mt80()} />}
                     <CardExperience job={job} />
-                  </>
+                  </React.Fragment>
                 ))}
               </div>
             </div>

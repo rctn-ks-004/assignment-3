@@ -36,8 +36,8 @@ export default function Skills() {
                   width: "100%",
                 }}
               >
-                {skills.map((skill) => (
-                  <SkillCard skill={skill} />
+                {skills.map((skill, idx) => (
+                  <SkillCard skill={skill} key={idx} />
                 ))}
               </div>
             </div>
