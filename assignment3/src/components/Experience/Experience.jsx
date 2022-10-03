@@ -4,7 +4,6 @@ import useAnimate from '../Hooks';
 
 const Experience = () => {
   const { scrollPercent } = useAnimate(60, 100);
-  console.log(scrollPercent);
 
   return (
       <section class="experience">
