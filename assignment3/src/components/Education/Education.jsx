@@ -1,11 +1,9 @@
 import React from "react";
 import { Header } from "../Header";
 import useAnimate from "../Hooks";
-import "./education.css";
 
 const Education = () => {
-    const { scrollPercent } = useAnimate(60, 100);
-    console.log(scrollPercent);
+    const { scrollPercent } = useAnimate(20, 50);
 
     return (
         <section class="education">

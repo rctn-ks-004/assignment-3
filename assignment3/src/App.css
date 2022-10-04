@@ -36,3 +36,17 @@ main {
   background: #2d394d;
   overflow: hidden;
 }
+
+.container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
