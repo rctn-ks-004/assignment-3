@@ -9,7 +9,6 @@ import Skills from "./Skills/Skills";
 const Home = () => {
     return (
         <div>
-            <section></section>
             <About />
             <Education />
             <Experience />

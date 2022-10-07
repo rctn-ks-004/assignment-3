@@ -4,13 +4,16 @@ import useAnimate from "../Hooks";
 import "./interest.css";
 
 const Interest = () => {
-    const { scrollPercent } = useAnimate(80, 100);
+    const { scrollPercent } = useAnimate(62, 90);
+    const onePage =
+        document.documentElement.scrollHeight ===
+        document.documentElement.clientHeight
+            ? true
+            : false;
 
     return (
         <section className="interest">
-            <Header
-                scrollPercent={scrollPercent === 0 ? 10 : scrollPercent - 60}
-            >
+            <Header scrollPercent={scrollPercent - 80 + 20} onePage={onePage}>
                 Interest
             </Header>
             <div className="container">

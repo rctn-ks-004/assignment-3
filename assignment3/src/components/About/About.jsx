@@ -5,12 +5,21 @@ import useAnimate from "../Hooks";
 import "./about.css";
 
 const About = () => {
-    const { scrollPercent } = useAnimate(0, 67);
-    console.log(scrollPercent);
+    const { scrollPercent } = useAnimate(0, 5);
+    const onePage =
+        document.documentElement.scrollHeight ===
+        document.documentElement.clientHeight
+            ? true
+            : false;
 
     return (
         <section className="about">
-            <Header scrollPercent={scrollPercent === 0 ? 10 : scrollPercent}>About Me</Header>
+            <Header
+                scrollPercent={!scrollPercent ? 10 : scrollPercent * 5}
+                onePage={onePage}
+            >
+                About Me
+            </Header>
             <div className="about__container">
                 <div class="desc">
                     My name is Mochamad Revanza Kurniawan. I was born in Bandung

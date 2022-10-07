@@ -3,12 +3,19 @@ import { Header } from "../Header";
 import useAnimate from "../Hooks";
 
 const Education = () => {
-    const { scrollPercent } = useAnimate(20, 50);
+    const { scrollPercent } = useAnimate(5, 30);
+    const onePage =
+        document.documentElement.scrollHeight ===
+        document.documentElement.clientHeight
+            ? true
+            : false;
 
     return (
         <section class="education">
             <Header
-                scrollPercent={scrollPercent === 0 ? 10 : scrollPercent - 60}
+                scrollPercent={scrollPercent * 4}
+                reversed
+                onePage={onePage}
             >
                 Education
             </Header>
