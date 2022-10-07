@@ -39,6 +39,7 @@ const Skills = () => {
 
     useEffect(() => {
         TagCloud(container, skills, option);
+        // eslint-disable-next-line
     }, []);
 
     return (
