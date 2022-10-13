@@ -1,0 +1,52 @@
+@import url('http://fonts.cdnfonts.com/css/avenir');
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.App {
+  font-family: 'Avenir', sans-serif;
+  color: #fffaf8;
+  text-align: center;
+  display: flex;
+}
+
+section {
+  padding: 0 4em;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+section > div:last-child {
+  z-index: 10;
+}
+
+section h1 {
+  position: absolute;
+  top: 110px  ;
+  font-size: 12em;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #263041;
+}
+
+main {
+  width: 80%;
+  background: #2d394d;
+  overflow: hidden;
+}
+
+.container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}

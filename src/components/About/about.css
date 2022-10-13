@@ -1,0 +1,22 @@
+.about {
+    gap: 20px;
+}
+
+.about__container {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.desc {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.photo img {
+    width: 200px;
+    box-shadow: 5px 5px 10px #263041;
+    border-radius: 10px;
+}
