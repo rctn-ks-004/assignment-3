@@ -1,0 +1,299 @@
+.App{
+  display: flex;
+  flex-direction: row;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-direction: column;
+  background-color: #FA7070;
+  flex: 0.4;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+nav .img {
+  border-radius: 50%;
+  border: 5px solid #cd5d5d;
+  padding: 5px;
+  object-fit: cover;
+  object-position: center;
+}
+nav .img img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+.nav-link a {
+  font-style: none;
+  text-decoration: none;
+  color: rgb(224, 224, 224);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.nav-link li.active a{
+  font-weight: 800;
+  color: white;
+}
+
+
+
+.page {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15rem;
+  /* overflow: scroll;
+  height: 700vh; */
+}
+
+
+
+
+
+
+
+.about {
+  display: flex;
+  flex: 1;
+  margin: 5%;
+  flex-direction: column;
+}
+
+.about h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #182747;
+}
+
+.about p{
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #313a4d;
+}
+
+
+
+
+
+
+.experience h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #182747;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 4%;
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+}
+.experience-list li div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.experience-list li h2{
+  font-size: 25px;
+  color: #182747;
+  font-weight: 500;
+}
+
+.experience-list li p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #313a4d;
+}
+
+.experience-list li div p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FF7777;
+}
+
+
+
+
+
+.education h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #182747;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 5%;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+}
+.education-list li div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.education-list li h2{
+  font-size: 25px;
+  color: #182747;
+  font-weight: 500;
+}
+
+.education-list li p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #313a4d;
+}
+
+.education-list li div p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FF7777;
+}
+
+
+
+
+
+
+
+
+.skills h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #182747;
+}
+
+
+
+
+.skills ul li h2{
+  font-size: 25px;
+  color: #182747;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.skills ul li p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #313a4d;
+  margin: 0;
+  margin-bottom: 13px;
+}
+.skills {
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 5%;
+}
+
+.skills ul {
+  list-style:url('https://img.icons8.com/material-rounded/24/000000/valorant.png');
+}
+
+
+
+
+
+
+
+
+.interest {
+  flex: 1;
+  margin: 5%;
+}
+
+.interest h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #182747;
+}
+
+.interest ul {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.interest ul li {
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #313a4d;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+
+
+
+
+
+.awards {
+  flex: 1;
+  margin: 5%;
+}
+
+.awards h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #182747;
+}
+
+.awards ul {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+
+}
+
+.awards ul li {
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #313a4d;
+  margin: 0;
+  margin-bottom: 13px;
+}
