@@ -1,0 +1,15 @@
+.container {
+	min-width: 85%;
+	min-height: 100vh;
+	padding-left: 40px;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.container > h1 {
+	font-family: 'News Cycle', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--black);
+}

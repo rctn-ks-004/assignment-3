@@ -1,0 +1,8 @@
+.container {
+	display: flex;
+	width: 100%;
+}
+.container--right {
+	width: 85%;
+	margin-left: 15%;
+}
