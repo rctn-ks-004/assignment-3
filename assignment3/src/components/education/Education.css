@@ -1,0 +1,46 @@
+.education {
+  margin: 5rem auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+.education .container {
+  width: 1240px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.education .col-1 {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.education .col-1 p:nth-child(1) {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.education .col-1 p:nth-child(2) {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.education .col-2 {
+  margin: auto;
+}
+
+@media screen and (max-width: 1260px) {
+  .education .container {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  .education img {
+    width: 100%;
+    height: auto;
+  }
+}
